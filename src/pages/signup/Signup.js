@@ -50,7 +50,7 @@ export default function Signup() {
           Signing up...
         </button>
       )}
-      {error && <p>{error}</p>}
+      {error && <small>{error}</small>}
     </form>
   );
 }
